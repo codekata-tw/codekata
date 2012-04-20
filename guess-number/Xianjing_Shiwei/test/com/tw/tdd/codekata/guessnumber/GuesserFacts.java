@@ -1,10 +1,8 @@
 package com.tw.tdd.codekata.guessnumber;
 
-import com.sun.deploy.security.DeployClientAuthCertStore;
 import org.junit.Test;
-import sun.jvm.hotspot.utilities.Assert;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 /**
  * Created by IntelliJ IDEA.
