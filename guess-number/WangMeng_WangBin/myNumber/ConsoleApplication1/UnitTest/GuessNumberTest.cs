@@ -6,8 +6,6 @@ namespace UnitTest
     [TestClass]
     public class GuessNumberTest
     {
-       
-
         [TestMethod]
         public void should_return_4A0B_when_all_number_exactly_match_answer()
         {

@@ -1,4 +1,3 @@
-using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTest
@@ -6,12 +5,11 @@ namespace UnitTest
     [TestClass]
     public class GameTest
     {
-
         [TestMethod]
         public void should_return_you_win_if_user_inputs_exactly_match_random_number_generated_when_game_is_initialized()
         {
-            Game game = new Game("1234");
-            string result = game.Do("1234");
+            var game = new Game("1234");
+            var result = game.Do("1234");
             Assert.AreEqual("You win", result);
         }
 
@@ -19,11 +17,11 @@ namespace UnitTest
 
     public class Game
     {
-        readonly string randomNumber;
+        readonly string answer;
 
-        public Game(string randomNumber)
+        public Game(string answer)
         {
-            this.randomNumber = randomNumber;
+            this.answer = answer;
         }
 
         public string Do(string input)
