@@ -1,0 +1,7 @@
+C:\Workspace\myNumber\ConsoleApplication1\UnitTest\bin\Debug\UnitTest.dll
+C:\Workspace\myNumber\ConsoleApplication1\UnitTest\bin\Debug\UnitTest.pdb
+C:\Workspace\myNumber\ConsoleApplication1\UnitTest\bin\Debug\ConsoleApplication1.exe
+C:\Workspace\myNumber\ConsoleApplication1\UnitTest\bin\Debug\ConsoleApplication1.pdb
+C:\Workspace\myNumber\ConsoleApplication1\UnitTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Workspace\myNumber\ConsoleApplication1\UnitTest\obj\Debug\UnitTest.dll
+C:\Workspace\myNumber\ConsoleApplication1\UnitTest\obj\Debug\UnitTest.pdb

@@ -1,0 +1,118 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="E907578F-5E1E-4A5C-8831-800C155F2C9A/f:Program.cs" caret="163" fromTop="9" />
+      <File id="E907578F-5E1E-4A5C-8831-800C155F2C9A/f:foo.cs" caret="52" fromTop="2" />
+      <File id="98C78CBB-CBE2-4E56-BF0E-F22F7E9E9B45/f:GameTest.cs" caret="747" fromTop="33" />
+      <File id="98C78CBB-CBE2-4E56-BF0E-F22F7E9E9B45/f:GuessNumberTest.cs" caret="1654" fromTop="31" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="98C78CBB-CBE2-4E56-BF0E-F22F7E9E9B45/f:GuessNumberTest.cs" caret="1894" fromTop="20" />
+      <File id="98C78CBB-CBE2-4E56-BF0E-F22F7E9E9B45/f:GuessNumberTest.cs" caret="1894" fromTop="21" />
+      <File id="98C78CBB-CBE2-4E56-BF0E-F22F7E9E9B45/f:GuessNumberTest.cs" caret="1670" fromTop="30" />
+      <File id="98C78CBB-CBE2-4E56-BF0E-F22F7E9E9B45/f:GameTest.cs" caret="726" fromTop="20" />
+      <File id="98C78CBB-CBE2-4E56-BF0E-F22F7E9E9B45/f:GameTest.cs" caret="451" fromTop="17" />
+      <File id="98C78CBB-CBE2-4E56-BF0E-F22F7E9E9B45/f:GameTest.cs" caret="451" fromTop="16" />
+      <File id="98C78CBB-CBE2-4E56-BF0E-F22F7E9E9B45/f:GameTest.cs" caret="339" fromTop="12" />
+      <File id="98C78CBB-CBE2-4E56-BF0E-F22F7E9E9B45/f:GameTest.cs" caret="570" fromTop="23" />
+      <File id="98C78CBB-CBE2-4E56-BF0E-F22F7E9E9B45/f:GuessNumberTest.cs" caret="171" fromTop="3" />
+      <File id="98C78CBB-CBE2-4E56-BF0E-F22F7E9E9B45/f:GuessNumberTest.cs" caret="1142" fromTop="13" />
+      <File id="98C78CBB-CBE2-4E56-BF0E-F22F7E9E9B45/f:GuessNumberTest.cs" caret="1902" fromTop="27" />
+      <File id="98C78CBB-CBE2-4E56-BF0E-F22F7E9E9B45/f:GuessNumberTest.cs" caret="1142" fromTop="12" />
+      <File id="98C78CBB-CBE2-4E56-BF0E-F22F7E9E9B45/f:GuessNumberTest.cs" caret="1775" fromTop="22" />
+      <File id="98C78CBB-CBE2-4E56-BF0E-F22F7E9E9B45/f:GuessNumberTest.cs" caret="1902" fromTop="10" />
+      <File id="98C78CBB-CBE2-4E56-BF0E-F22F7E9E9B45/f:GuessNumberTest.cs" caret="1902" fromTop="18" />
+      <File id="98C78CBB-CBE2-4E56-BF0E-F22F7E9E9B45/f:GuessNumberTest.cs" caret="1902" fromTop="23" />
+      <File id="98C78CBB-CBE2-4E56-BF0E-F22F7E9E9B45/f:GuessNumberTest.cs" caret="1902" fromTop="19" />
+      <File id="98C78CBB-CBE2-4E56-BF0E-F22F7E9E9B45/f:GuessNumberTest.cs" caret="2543" fromTop="13" />
+      <File id="98C78CBB-CBE2-4E56-BF0E-F22F7E9E9B45/f:GuessNumberTest.cs" caret="2543" fromTop="8" />
+      <File id="98C78CBB-CBE2-4E56-BF0E-F22F7E9E9B45/f:GuessNumberTest.cs" caret="2583" fromTop="13" />
+      <File id="98C78CBB-CBE2-4E56-BF0E-F22F7E9E9B45/f:GuessNumberTest.cs" caret="2886" fromTop="29" />
+      <File id="98C78CBB-CBE2-4E56-BF0E-F22F7E9E9B45/f:GuessNumberTest.cs" caret="2817" fromTop="13" />
+      <File id="98C78CBB-CBE2-4E56-BF0E-F22F7E9E9B45/f:GuessNumberTest.cs" caret="2817" fromTop="20" />
+      <File id="98C78CBB-CBE2-4E56-BF0E-F22F7E9E9B45/f:GuessNumberTest.cs" caret="2377" fromTop="15" />
+      <File id="98C78CBB-CBE2-4E56-BF0E-F22F7E9E9B45/f:GuessNumberTest.cs" caret="2124" fromTop="10" />
+      <File id="98C78CBB-CBE2-4E56-BF0E-F22F7E9E9B45/f:GuessNumberTest.cs" caret="2543" fromTop="24" />
+      <File id="98C78CBB-CBE2-4E56-BF0E-F22F7E9E9B45/f:GuessNumberTest.cs" caret="2817" fromTop="30" />
+      <File id="98C78CBB-CBE2-4E56-BF0E-F22F7E9E9B45/f:GuessNumberTest.cs" caret="1410" fromTop="28" />
+      <File id="98C78CBB-CBE2-4E56-BF0E-F22F7E9E9B45/f:GuessNumberTest.cs" caret="1654" fromTop="32" />
+      <File id="98C78CBB-CBE2-4E56-BF0E-F22F7E9E9B45/f:GuessNumberTest.cs" caret="1654" fromTop="31" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="Assert`0" priority="3" />
+      <Item value="public" priority="3" />
+      <Item value="int" priority="2" />
+      <Item value="ConsoleApplication1" priority="0" />
+      <Item value="return" priority="6" />
+      <Item value="a" priority="0" />
+      <Item value="b" priority="0" />
+      <Item value="new" priority="1" />
+      <Item value="Base64FormattingOptions`0" priority="0" />
+      <Item value="foo" priority="0" />
+      <Item value="string" priority="1" />
+      <Item value="GuessNumberTest`0" priority="0" />
+      <Item value="GuessNumber" priority="0" />
+      <Item value="void" priority="2" />
+      <Item value="TestMethod" priority="1" />
+      <Item value="if" priority="7" />
+      <Item value="input" priority="3" />
+      <Item value="null" priority="0" />
+      <Item value="randomNumber" priority="1" />
+      <Item value="for" priority="0" />
+      <Item value="charArray" priority="2" />
+      <Item value="Length" priority="0" />
+      <Item value="var" priority="1" />
+      <Item value="numberOfA" priority="4" />
+      <Item value="else" priority="0" />
+      <Item value="continue" priority="0" />
+      <Item value="numberOfB" priority="0" />
+      <Item value="indexInrandomNumber" priority="1" />
+      <Item value="GameTest`0" priority="0" />
+      <Item value="Game" priority="0" />
+      <Item value="game" priority="0" />
+      <Item value="TestClass" priority="0" />
+      <Item value="Action`0" priority="0" />
+      <Item value="asrt" priority="0" />
+      <Item value="ExistButPositionNotCorrect`0" priority="0" />
+      <Item value="answer" priority="2" />
+      <Item value="bool" priority="3" />
+      <Item value="Action" priority="0" />
+      <Item value="action" priority="1" />
+      <Item value="i" priority="0" />
+      <Item value="ExistAndPositionCorrect`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
+      <Item value="AreEqual`0" priority="1" />
+      <Item value="Equals`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ConsoleApplication1.Foo">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Equals`0" priority="1" />
+      <Item value="StartsWith`0" priority="0" />
+      <Item value="ToCharArray`0" priority="0" />
+      <Item value="IndexOf`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

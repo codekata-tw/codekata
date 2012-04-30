@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7728af58-0dda-4602-bb3b-040de726b08b" name="Administrator@PWC-DEV-85 2012-04-18 13:08:34" runUser="PWC-DEV-85\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="33277e71-772e-44de-a32b-71e400725fbf">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_PWC-DEV-85 2012-04-18 13_08_34" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-18T13:08:34.0880845+08:00" queuing="2012-04-18T13:08:34.4981079+08:00" start="2012-04-18T13:08:34.6611173+08:00" finish="2012-04-18T13:08:34.8551284+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" passed="2" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="should_return_1A1B_when_one_number_exactly_match_and_one_number_exist_but_not_match_position" storage="c:\workspace\mynumber\consoleapplication1\unittest\bin\debug\unittest.dll" id="6980a8cd-4247-8199-62c8-b0ab6a275f1c">
+      <Execution timeOut="1800000" id="7a5793b2-4f0a-4eb4-891a-bfa74d954a0d" />
+      <TestMethod codeBase="C:/Workspace/myNumber/ConsoleApplication1/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.GuessNumberTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="should_return_1A1B_when_one_number_exactly_match_and_one_number_exist_but_not_match_position" />
+    </UnitTest>
+    <UnitTest name="should_return_1A0B_when_one_number_exactly_match" storage="c:\workspace\mynumber\consoleapplication1\unittest\bin\debug\unittest.dll" id="df4b9e72-e9bb-b722-2a34-7c7762d53cd9">
+      <Execution timeOut="1800000" id="8908aca7-2a63-46c9-a5ae-893c2ba2bff1" />
+      <TestMethod codeBase="C:/Workspace/myNumber/ConsoleApplication1/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.GuessNumberTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="should_return_1A0B_when_one_number_exactly_match" />
+    </UnitTest>
+    <UnitTest name="should_return_0A0B_when_no_numbers_exactly_match" storage="c:\workspace\mynumber\consoleapplication1\unittest\bin\debug\unittest.dll" id="1ebe60f3-0ad4-2c2e-d888-99e55efc4a52">
+      <Execution timeOut="1800000" id="b31af106-11a2-4bb1-b545-ac73b6619266" />
+      <TestMethod codeBase="C:/Workspace/myNumber/ConsoleApplication1/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.GuessNumberTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="should_return_0A0B_when_no_numbers_exactly_match" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1ebe60f3-0ad4-2c2e-d888-99e55efc4a52" executionId="b31af106-11a2-4bb1-b545-ac73b6619266" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="df4b9e72-e9bb-b722-2a34-7c7762d53cd9" executionId="8908aca7-2a63-46c9-a5ae-893c2ba2bff1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6980a8cd-4247-8199-62c8-b0ab6a275f1c" executionId="7a5793b2-4f0a-4eb4-891a-bfa74d954a0d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b31af106-11a2-4bb1-b545-ac73b6619266" testId="1ebe60f3-0ad4-2c2e-d888-99e55efc4a52" testName="should_return_0A0B_when_no_numbers_exactly_match" computerName="PWC-DEV-85" duration="00:00:00.0122936" startTime="2012-04-18T13:08:34.7001195+08:00" endTime="2012-04-18T13:08:34.7611230+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b31af106-11a2-4bb1-b545-ac73b6619266">
+    </UnitTestResult>
+    <UnitTestResult executionId="8908aca7-2a63-46c9-a5ae-893c2ba2bff1" testId="df4b9e72-e9bb-b722-2a34-7c7762d53cd9" testName="should_return_1A0B_when_one_number_exactly_match" computerName="PWC-DEV-85" duration="00:00:00.0001847" startTime="2012-04-18T13:08:34.7631231+08:00" endTime="2012-04-18T13:08:34.7631231+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8908aca7-2a63-46c9-a5ae-893c2ba2bff1">
+    </UnitTestResult>
+    <UnitTestResult executionId="7a5793b2-4f0a-4eb4-891a-bfa74d954a0d" testId="6980a8cd-4247-8199-62c8-b0ab6a275f1c" testName="should_return_1A1B_when_one_number_exactly_match_and_one_number_exist_but_not_match_position" computerName="PWC-DEV-85" duration="00:00:00.0278844" startTime="2012-04-18T13:08:34.7641232+08:00" endTime="2012-04-18T13:08:34.7921248+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7a5793b2-4f0a-4eb4-891a-bfa74d954a0d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1A1B&gt;. Actual:&lt;1A0B&gt;. </Message>
+          <StackTrace>   at UnitTest.GuessNumberTest.should_return_1A1B_when_one_number_exactly_match_and_one_number_exist_but_not_match_position() in C:\Workspace\myNumber\ConsoleApplication1\UnitTest\GuessNumberTest.cs:line 31
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
