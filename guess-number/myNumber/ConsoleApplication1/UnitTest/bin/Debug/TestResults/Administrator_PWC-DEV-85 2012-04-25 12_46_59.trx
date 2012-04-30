@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e5530cb7-4e49-43f8-bf31-e526158f8f6b" name="Administrator@PWC-DEV-85 2012-04-25 12:46:59" runUser="PWC-DEV-85\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="33277e71-772e-44de-a32b-71e400725fbf">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_PWC-DEV-85 2012-04-25 12_46_59" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-25T12:46:59.2610610+08:00" queuing="2012-04-25T12:46:59.6860853+08:00" start="2012-04-25T12:46:59.8720960+08:00" finish="2012-04-25T12:47:00.0621069+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="should_return_you_win_if_user_inputs_exactly_match_random_number" storage="c:\workspace\mynumber\consoleapplication1\unittest\bin\debug\unittest.dll" id="f703be36-2aad-3ab9-ec1a-3930fb313355">
+      <Execution timeOut="1800000" id="807605a9-9d90-45c8-bd86-2ae54fc3e55b" />
+      <TestMethod codeBase="C:/Workspace/myNumber/ConsoleApplication1/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.GameTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="should_return_you_win_if_user_inputs_exactly_match_random_number" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="f703be36-2aad-3ab9-ec1a-3930fb313355" executionId="807605a9-9d90-45c8-bd86-2ae54fc3e55b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="807605a9-9d90-45c8-bd86-2ae54fc3e55b" testId="f703be36-2aad-3ab9-ec1a-3930fb313355" testName="should_return_you_win_if_user_inputs_exactly_match_random_number" computerName="PWC-DEV-85" duration="00:00:00.0133940" startTime="2012-04-25T12:46:59.9120983+08:00" endTime="2012-04-25T12:46:59.9881026+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="807605a9-9d90-45c8-bd86-2ae54fc3e55b">
+    </UnitTestResult>
+  </Results>
+</TestRun>

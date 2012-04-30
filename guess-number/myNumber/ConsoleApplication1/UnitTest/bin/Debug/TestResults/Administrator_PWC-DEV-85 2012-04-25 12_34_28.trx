@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9eeb8734-c870-45e1-b1b1-e68be11aaa7c" name="Administrator@PWC-DEV-85 2012-04-25 12:34:28" runUser="PWC-DEV-85\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="33277e71-772e-44de-a32b-71e400725fbf">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_PWC-DEV-85 2012-04-25 12_34_28" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-25T12:34:28.2877551+08:00" queuing="2012-04-25T12:34:28.7245559+08:00" start="2012-04-25T12:34:28.9273562+08:00" finish="2012-04-25T12:34:29.2081567+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="should_return_3A0B_when_three_numbers_exactly_match_in_random_number" storage="c:\workspace\mynumber\consoleapplication1\unittest\bin\debug\unittest.dll" id="13c751b7-b029-8374-283c-377598f0b01b">
+      <Execution timeOut="1800000" id="063cf954-5c62-46d9-8ae3-7a1438acd80d" />
+      <TestMethod codeBase="C:/Workspace/myNumber/ConsoleApplication1/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.GuessNumberTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="should_return_3A0B_when_three_numbers_exactly_match_in_random_number" />
+    </UnitTest>
+    <UnitTest name="should_return_4A0B_when_all_number_exactly_match_random_number" storage="c:\workspace\mynumber\consoleapplication1\unittest\bin\debug\unittest.dll" id="4d1da9c0-c610-9514-4545-a1634804c36d">
+      <Execution timeOut="1800000" id="1220554e-b692-42e7-bce1-55788f428abe" />
+      <TestMethod codeBase="C:/Workspace/myNumber/ConsoleApplication1/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.GuessNumberTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="should_return_4A0B_when_all_number_exactly_match_random_number" />
+    </UnitTest>
+    <UnitTest name="should_return_3A1B_when_three_number_exactly_match__random_number_and_one_exit" storage="c:\workspace\mynumber\consoleapplication1\unittest\bin\debug\unittest.dll" id="c225082c-db83-6a33-b3e1-268043dc4947">
+      <Execution timeOut="1800000" id="813472d0-7c66-43db-89c3-33b1c4557474" />
+      <TestMethod codeBase="C:/Workspace/myNumber/ConsoleApplication1/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.GuessNumberTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="should_return_3A1B_when_three_number_exactly_match__random_number_and_one_exit" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="13c751b7-b029-8374-283c-377598f0b01b" executionId="063cf954-5c62-46d9-8ae3-7a1438acd80d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c225082c-db83-6a33-b3e1-268043dc4947" executionId="813472d0-7c66-43db-89c3-33b1c4557474" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4d1da9c0-c610-9514-4545-a1634804c36d" executionId="1220554e-b692-42e7-bce1-55788f428abe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="063cf954-5c62-46d9-8ae3-7a1438acd80d" testId="13c751b7-b029-8374-283c-377598f0b01b" testName="should_return_3A0B_when_three_numbers_exactly_match_in_random_number" computerName="PWC-DEV-85" duration="00:00:00.0195799" startTime="2012-04-25T12:34:28.9897563+08:00" endTime="2012-04-25T12:34:29.0989565+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="063cf954-5c62-46d9-8ae3-7a1438acd80d">
+    </UnitTestResult>
+    <UnitTestResult executionId="813472d0-7c66-43db-89c3-33b1c4557474" testId="c225082c-db83-6a33-b3e1-268043dc4947" testName="should_return_3A1B_when_three_number_exactly_match__random_number_and_one_exit" computerName="PWC-DEV-85" duration="00:00:00.0002952" startTime="2012-04-25T12:34:29.0989565+08:00" endTime="2012-04-25T12:34:29.0989565+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="813472d0-7c66-43db-89c3-33b1c4557474">
+    </UnitTestResult>
+    <UnitTestResult executionId="1220554e-b692-42e7-bce1-55788f428abe" testId="4d1da9c0-c610-9514-4545-a1634804c36d" testName="should_return_4A0B_when_all_number_exactly_match_random_number" computerName="PWC-DEV-85" duration="00:00:00.0002858" startTime="2012-04-25T12:34:29.0989565+08:00" endTime="2012-04-25T12:34:29.0989565+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1220554e-b692-42e7-bce1-55788f428abe">
+    </UnitTestResult>
+  </Results>
+</TestRun>

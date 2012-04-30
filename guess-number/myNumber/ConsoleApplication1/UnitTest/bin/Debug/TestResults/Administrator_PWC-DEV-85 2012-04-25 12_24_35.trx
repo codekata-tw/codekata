@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c639e5fa-be5c-49b7-8983-515608c819ba" name="Administrator@PWC-DEV-85 2012-04-25 12:24:35" runUser="PWC-DEV-85\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="33277e71-772e-44de-a32b-71e400725fbf">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_PWC-DEV-85 2012-04-25 12_24_35" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-25T12:24:35.7355603+08:00" queuing="2012-04-25T12:24:35.9695607+08:00" start="2012-04-25T12:24:36.0943609+08:00" finish="2012-04-25T12:24:36.2503612+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" passed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="should_return_4A0B_when_all_number_exactly_match_random_number" storage="c:\workspace\mynumber\consoleapplication1\unittest\bin\debug\unittest.dll" id="4d1da9c0-c610-9514-4545-a1634804c36d">
+      <Execution timeOut="1800000" id="ff86b71e-8e1f-4d34-8c51-2c006ce903d1" />
+      <TestMethod codeBase="C:/Workspace/myNumber/ConsoleApplication1/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.GuessNumberTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="should_return_4A0B_when_all_number_exactly_match_random_number" />
+    </UnitTest>
+    <UnitTest name="should_return_3A0B_when_three_numbers_exactly_match_in_random_number" storage="c:\workspace\mynumber\consoleapplication1\unittest\bin\debug\unittest.dll" id="13c751b7-b029-8374-283c-377598f0b01b">
+      <Execution timeOut="1800000" id="7538b1e6-0091-4403-916f-e5049fed0ca1" />
+      <TestMethod codeBase="C:/Workspace/myNumber/ConsoleApplication1/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.GuessNumberTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="should_return_3A0B_when_three_numbers_exactly_match_in_random_number" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="13c751b7-b029-8374-283c-377598f0b01b" executionId="7538b1e6-0091-4403-916f-e5049fed0ca1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4d1da9c0-c610-9514-4545-a1634804c36d" executionId="ff86b71e-8e1f-4d34-8c51-2c006ce903d1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7538b1e6-0091-4403-916f-e5049fed0ca1" testId="13c751b7-b029-8374-283c-377598f0b01b" testName="should_return_3A0B_when_three_numbers_exactly_match_in_random_number" computerName="PWC-DEV-85" duration="00:00:00.0269178" startTime="2012-04-25T12:24:36.1099609+08:00" endTime="2012-04-25T12:24:36.1879611+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7538b1e6-0091-4403-916f-e5049fed0ca1">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;3A0B&gt;. Actual:&lt;4A0B&gt;. </Message>
+          <StackTrace>   at UnitTest.GuessNumberTest.should_return_3A0B_when_three_numbers_exactly_match_in_random_number() in C:\Workspace\myNumber\ConsoleApplication1\UnitTest\GuessNumberTest.cs:line 15
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ff86b71e-8e1f-4d34-8c51-2c006ce903d1" testId="4d1da9c0-c610-9514-4545-a1634804c36d" testName="should_return_4A0B_when_all_number_exactly_match_random_number" computerName="PWC-DEV-85" duration="00:00:00.0001433" startTime="2012-04-25T12:24:36.1879611+08:00" endTime="2012-04-25T12:24:36.1879611+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ff86b71e-8e1f-4d34-8c51-2c006ce903d1">
+    </UnitTestResult>
+  </Results>
+</TestRun>

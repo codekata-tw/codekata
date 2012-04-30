@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ce0d3ae6-ea86-43f4-9d6a-f7c0fa354a1b" name="Administrator@PWC-DEV-85 2012-04-18 12:56:12" runUser="PWC-DEV-85\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="33277e71-772e-44de-a32b-71e400725fbf">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_PWC-DEV-85 2012-04-18 12_56_12" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-18T12:56:12.6866788+08:00" queuing="2012-04-18T12:56:13.3257153+08:00" start="2012-04-18T12:56:13.6387332+08:00" finish="2012-04-18T12:56:13.8087429+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\workspace\mynumber\consoleapplication1\unittest\bin\debug\unittest.dll" id="57d133f7-80e9-28d8-7d60-3ab3c5aea82b">
+      <Execution timeOut="1800000" id="2dad073b-ff92-47c5-b23e-74ca45c61c1e" />
+      <TestMethod codeBase="C:/Workspace/myNumber/ConsoleApplication1/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.UnitTest1, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="57d133f7-80e9-28d8-7d60-3ab3c5aea82b" executionId="2dad073b-ff92-47c5-b23e-74ca45c61c1e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2dad073b-ff92-47c5-b23e-74ca45c61c1e" testId="57d133f7-80e9-28d8-7d60-3ab3c5aea82b" testName="TestMethod1" computerName="PWC-DEV-85" duration="00:00:00.0108021" startTime="2012-04-18T12:56:13.7057370+08:00" endTime="2012-04-18T12:56:13.7567400+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2dad073b-ff92-47c5-b23e-74ca45c61c1e">
+    </UnitTestResult>
+  </Results>
+</TestRun>
