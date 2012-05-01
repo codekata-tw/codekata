@@ -1,9 +1,9 @@
 package com.codekata.guess;
 
+import com.google.common.collect.Lists;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import static org.hamcrest.CoreMatchers.is;
@@ -15,12 +15,7 @@ public class GuesserTest {
 
     @Before
     public void setUp() {
-        List<Integer> answer = new ArrayList<Integer>();
-        answer.add(1);
-        answer.add(2);
-        answer.add(3);
-        answer.add(4);
-
+        List<Integer> answer = Lists.newArrayList(1, 2, 3, 4);
         guesser = new Guesser(answer);
     }
 
@@ -39,7 +34,7 @@ public class GuesserTest {
         assertThat(guesser.guess("1890"),is("1a0b"));
     }
     @Test
-    public void should_return_0a1b_when_1_patially_match(){
+    public void should_return_0a1b_when_1_partially_match(){
         assertThat(guesser.guess("5367"),is("0a1b"));
     }
 
@@ -47,4 +42,16 @@ public class GuesserTest {
     public void should_return_3a0b_when_3_exactly_match(){
         assertThat(guesser.guess("5234"),is("3a0b"));
     }
+
+    @Test
+    public void should_return_0a3b_when_3_partially_match(){
+        assertThat(guesser.guess("2345"),is("0a3b"));
+    }
+
+    @Test
+    public void should_return_3a1b_when_3_exactly_match_and_1_partially_match(){
+        assertThat(guesser.guess("1432"),is("2a2b"));
+    }
+
+
 }

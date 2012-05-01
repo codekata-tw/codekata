@@ -12,11 +12,6 @@ public class Guesser {
 
     public String guess(String guess) {
         List<Integer> guessList = convertToArray(guess);
-
-        if (guessList.equals(answer)) {
-            return "4a0b";
-        }
-
         int partMatch = getPartMatch(guessList);
         int exactlyMatch = getExactlyMatchNumber(guessList);
         partMatch = partMatch - exactlyMatch;
@@ -27,23 +22,25 @@ public class Guesser {
     private int getPartMatch(List<Integer> guessList) {
         int partMatch = 0;
 
-        for (Integer integer : guessList) {
-            if (answer.contains(integer)) {
-               partMatch+=1;
+        for (Integer value : guessList) {
+            if (answer.contains(value)) {
+                partMatch += 1;
             }
         }
+
         return partMatch;
     }
 
     private int getExactlyMatchNumber(List<Integer> guessList) {
         int exactlyMatch = 0;
 
-        for (int i = 0; i < answer.size(); i++) {
-            Integer value = answer.get(i);
-            if (value.equals(guessList.get(i))) {
+        for (int i = 0; i < guessList.size(); i++) {
+            Integer value = guessList.get(i);
+            if (value.equals(answer.get(i))) {
                 exactlyMatch += 1;
             }
         }
+
         return exactlyMatch;
     }
 
