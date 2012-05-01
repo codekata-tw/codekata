@@ -2,5 +2,5 @@
 .DS_Store
 **/.idea/*
 */.DS_Store
-**/out
+*/*/out/*
 **/target
