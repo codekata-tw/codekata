@@ -9,6 +9,11 @@ package com.tw.tdd.codekata.guessnumber;
  */
 public class AnswerGenerator {
 
+    private final IRandomNumberProducer numberProducer;
+
+    public AnswerGenerator(IRandomNumberProducer producer) {
+        numberProducer = producer;
+    }
 
     public String generate() {
         String result = "";
@@ -21,14 +26,11 @@ public class AnswerGenerator {
     }
 
     private Integer generateNextNumber(String result) {
-        Integer currentNumber = getRandomNumber();
+        Integer currentNumber = numberProducer.produce();
         while(result.contains(currentNumber.toString())) {
-            currentNumber = getRandomNumber();
+            currentNumber = numberProducer.produce();
         }
         return currentNumber;
     }
 
-    private Integer getRandomNumber() {
-        return new Integer((int)(Math.random()*10));
-    }
 }
