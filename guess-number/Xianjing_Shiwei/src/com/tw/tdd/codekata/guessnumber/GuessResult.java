@@ -7,7 +7,7 @@ package com.tw.tdd.codekata.guessnumber;
  * Time: 10:23 PM
  * To change this template use File | Settings | File Templates.
  */
-public class GuessResult {
+public class GuessResult implements IGuessResult {
     public int match;
     public int found;
 

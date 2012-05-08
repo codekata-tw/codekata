@@ -17,12 +17,12 @@ public class Guesser {
     }
 
     public String verify(String guess) {
-        GuessResult result = getResult(guess);
+        IGuessResult result = getResult(guess);
         status.updateFrom(result);
         return result.toString();
     }
 
-    private GuessResult getResult(String guess) {
+    private IGuessResult getResult(String guess) {
         GuessResult result = new GuessResult();
         char[] guessNumbers = guess.toCharArray();
         for (int i = 0; i < guessNumbers.length; i++) {

@@ -13,17 +13,18 @@ public class GameStatus {
 
     public GameStatus() {
         this.guestCount = 0;
+        this.status = "Not started";
     }
 
-    public void updateFrom(GuessResult result) {
+    public void updateFrom(IGuessResult resultI) {
         guestCount++;
-        status = calculateStatus(result);
+        status = calculateStatus(resultI);
     }
 
-    private String calculateStatus(GuessResult result) {
-        if (result.allMatch() && guestCount <= 6)
+    private String calculateStatus(IGuessResult resultI) {
+        if (resultI.allMatch() && guestCount <= 6)
             return "Win";
-        if (!result.allMatch() && guestCount == 6)
+        if (!resultI.allMatch() && guestCount == 6)
             return "Lose";
         return "In progress";
     }

@@ -63,30 +63,30 @@ public class GuesserFacts {
         String result = guesser.verify("1234");
         assertEquals("4A0B", result);
     }
-
-    @Test
-    public void should_succeed_when_guess_correct_number_for_1_time() {
-        Guesser guesser = new Guesser("1234");
-        guesser.verify("1234");
-        assertEquals("Win", guesser.currentStatus());
-    }
-
-    @Test
-    public void should_in_progress_when_guess_incorrect_number_for_1_time() {
-        Guesser guesser = new Guesser("1234");
-        guesser.verify("1567");
-        assertEquals("In progress", guesser.currentStatus());
-    }
-
-    @Test
-    public void should_lose_when_guess_incorrect_number_for_6_times() {
-        Guesser guesser = new Guesser("1234");
-        guesser.verify("1567");
-        guesser.verify("1567");
-        guesser.verify("1567");
-        guesser.verify("1567");
-        guesser.verify("1567");
-        guesser.verify("1567");
-        assertEquals("Lose", guesser.currentStatus());
-    }
+//
+//    @Test
+//    public void should_succeed_when_guess_correct_number_for_1_time() {
+//        Guesser guesser = new Guesser("1234");
+//        guesser.verify("1234");
+//        assertEquals("Win", guesser.currentStatus());
+//    }
+//
+//    @Test
+//    public void should_in_progress_when_guess_incorrect_number_for_1_time() {
+//        Guesser guesser = new Guesser("1234");
+//        guesser.verify("1567");
+//        assertEquals("In progress", guesser.currentStatus());
+//    }
+//
+//    @Test
+//    public void should_lose_when_guess_incorrect_number_for_6_times() {
+//        Guesser guesser = new Guesser("1234");
+//        guesser.verify("1567");
+//        guesser.verify("1567");
+//        guesser.verify("1567");
+//        guesser.verify("1567");
+//        guesser.verify("1567");
+//        guesser.verify("1567");
+//        assertEquals("Lose", guesser.currentStatus());
+//    }
 }
