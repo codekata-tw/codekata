@@ -61,10 +61,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GuesserFacts.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/com/tw/tdd/codekata/guessnumber/GuesserFacts.java">
+      <file leaf-file-name="AnswerGeneratorFacts.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/tw/tdd/codekata/guessnumber/AnswerGeneratorFacts.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="44" selection-start="703" selection-end="703" vertical-scroll-proportion="0.5218418">
+            <state line="41" column="0" selection-start="1194" selection-end="1194" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,11 +72,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Guesser.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Guesser.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/Guesser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="7" selection-start="570" selection-end="825" vertical-scroll-proportion="0.0">
+            <state line="18" column="24" selection-start="420" selection-end="426" vertical-scroll-proportion="0.41018766">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnswerGenerator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/AnswerGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="22" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Math.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.6.0_23/src.zip!/java/lang/Math.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="692" column="25" selection-start="29149" selection-end="29149" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#59586#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,6 +113,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/Guesser.java" />
         <option value="$PROJECT_DIR$/test/com/tw/tdd/codekata/guessnumber/GuesserFacts.java" />
+        <option value="$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/AnswerGenerator.java" />
+        <option value="$PROJECT_DIR$/test/com/tw/tdd/codekata/guessnumber/AnswerGeneratorFacts.java" />
       </list>
     </option>
   </component>
@@ -132,20 +154,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Xianjing_Shiwei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Xianjing_Shiwei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -182,24 +190,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Xianjing_Shiwei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Xianjing_Shiwei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guessnumber" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope">
@@ -208,6 +198,20 @@
             <PATH_ELEMENT USER_OBJECT="Root">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Xianjing_Shiwei" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Xianjing_Shiwei" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -223,20 +227,21 @@
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.tw.tdd.codekata.guessnumber" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GuesserFacts">
+  <component name="RunManager" selected="JUnit.AnswerGeneratorFacts">
     <configuration default="false" name="GuesserFacts" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="Xianjing_Shiwei" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -262,6 +267,28 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AnswerGeneratorFacts" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="Xianjing_Shiwei" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.tw.tdd.codekata.guessnumber" />
+      <option name="MAIN_CLASS_NAME" value="com.tw.tdd.codekata.guessnumber.AnswerGeneratorFacts" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -339,8 +366,9 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JUnit.GuesserFacts" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.AnswerGeneratorFacts" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -391,8 +419,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.106303416" sideWeight="0.8574238" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1425762" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.106303416" sideWeight="0.7581121" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24188791" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -460,19 +488,40 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/Guesser.java">
+    <entry file="file://$PROJECT_DIR$/test/com/tw/tdd/codekata/guessnumber/GuesserFacts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="7" selection-start="570" selection-end="825" vertical-scroll-proportion="0.0">
+        <state line="32" column="63" selection-start="872" selection-end="872" vertical-scroll-proportion="0.017137097" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.6.0_23/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="692" column="25" selection-start="29149" selection-end="29149" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#59586#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/AnswerGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="22" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/tw/tdd/codekata/guessnumber/GuesserFacts.java">
+    <entry file="file://$PROJECT_DIR$/test/com/tw/tdd/codekata/guessnumber/AnswerGeneratorFacts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="44" selection-start="703" selection-end="703" vertical-scroll-proportion="0.5218418">
+        <state line="41" column="0" selection-start="1194" selection-end="1194" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/Guesser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="24" selection-start="420" selection-end="426" vertical-scroll-proportion="0.41018766">
+          <folding />
         </state>
       </provider>
     </entry>

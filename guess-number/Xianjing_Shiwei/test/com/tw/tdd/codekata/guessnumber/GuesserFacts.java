@@ -30,7 +30,7 @@ public class GuesserFacts {
     }
 
     @Test
-    public void should_return_0A4B_when_no_number_matches_and_1_number_finds() {
+    public void should_return_0A4B_when_no_number_matches_and_4_number_finds() {
         Guesser guesser = new Guesser("1234");
         String result = guesser.verify("4321");
         assertEquals("0A4B", result);
