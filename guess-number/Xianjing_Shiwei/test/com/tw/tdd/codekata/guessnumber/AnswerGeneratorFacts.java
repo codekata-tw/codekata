@@ -1,6 +1,5 @@
 package com.tw.tdd.codekata.guessnumber;
 
-import org.junit.Assert;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
@@ -15,28 +14,27 @@ public class AnswerGeneratorFacts {
 
     @Test
     public void should_generate_string_with_4_chars() {
-        AnswerGenerator generator = givenAnswerGenerator();
+        IAnswerGenerator generator = givenAnswerGenerator();
         String result = generator.generate();
         assertEquals(4, result.length());
     }
 
     @Test
     public void should_generate_string_contains_number_only() {
-        AnswerGenerator generator = givenAnswerGenerator();
+        IAnswerGenerator generator = givenAnswerGenerator();
         String result = generator.generate();
         assertTrue(result.matches("\\d+"));
     }
 
     @Test
     public void should_generate_string_with_different_numbers() {
-        AnswerGenerator generator = givenAnswerGenerator();
+        IAnswerGenerator generator = givenAnswerGenerator();
         String result = generator.generate();
-//        assertEquals("1234", result);
         resultShouldContainDifferentNumbers(result);
     }
 
-    private AnswerGenerator givenAnswerGenerator() {
-        return new AnswerGenerator(new MockRandomNumberProducer(new int[] {1,2,3,4}));
+    private IAnswerGenerator givenAnswerGenerator() {
+        return new AnswerGenerator(new RandomNumberProducerStub(new int[] {1,2,3,4}));
     }
 
     private void resultShouldContainDifferentNumbers(String result) {
@@ -49,12 +47,12 @@ public class AnswerGeneratorFacts {
     }
 
 
-    private class MockRandomNumberProducer implements IRandomNumberProducer {
+    private class RandomNumberProducerStub implements IRandomNumberProducer {
 
         private int[] candidateNumbers;
         private int currentIndex = -1;
 
-        private MockRandomNumberProducer(int[] candidateNumbers) {
+        private RandomNumberProducerStub(int[] candidateNumbers) {
             this.candidateNumbers = candidateNumbers;
         }
 

@@ -61,10 +61,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="Validator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/Validator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="26" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="GuesserFacts.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/tw/tdd/codekata/guessnumber/GuesserFacts.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="8" selection-start="1933" selection-end="1933" vertical-scroll-proportion="0.0">
+            <state line="64" column="13" selection-start="1933" selection-end="1933" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -73,37 +82,55 @@
       <file leaf-file-name="Guesser.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/Guesser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="5" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0">
+            <state line="15" column="27" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameStatus.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/GameStatus.java">
+      <file leaf-file-name="GameFacts.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/com/tw/tdd/codekata/guessnumber/GameFacts.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="10" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GuessResult.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/GuessResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="32" selection-start="326" selection-end="326" vertical-scroll-proportion="0.22459349">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameStatusFacts.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/tw/tdd/codekata/guessnumber/GameStatusFacts.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="29" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0">
+            <state line="23" column="33" selection-start="624" selection-end="624" vertical-scroll-proportion="0.43349755">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OutputPrinter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/OutputPrinter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="95" selection-start="258" selection-end="345" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Game.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="81" selection-start="446" selection-end="519" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InputCollector.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/InputCollector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="95" selection-start="259" selection-end="346" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnswerGenerator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/AnswerGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="27" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -115,22 +142,30 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="CHECKOUT_INCLUDE_TAGS" value="false" />
+    <option name="UPDATE_CHANGES_POLICY" value="STASH" />
+    <option name="LINE_SEPARATORS_CONVERSION" value="ASK" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/IRandomNumberProducer.java" />
         <option value="$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/RandomNumberProducer.java" />
-        <option value="$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/AnswerGenerator.java" />
-        <option value="$PROJECT_DIR$/test/com/tw/tdd/codekata/guessnumber/AnswerGeneratorFacts.java" />
-        <option value="$PROJECT_DIR$/test/com/tw/tdd/codekata/guessnumber/GameFacts.java" />
         <option value="$PROJECT_DIR$/test/com/tw/tdd/codekata/guessnumber/Validator.java" />
-        <option value="$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/Validator.java" />
         <option value="$PROJECT_DIR$/test/com/tw/tdd/codekata/guessnumber/ValidatorFacts.java" />
         <option value="$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/GuessResult.java" />
         <option value="$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/Guesser.java" />
         <option value="$PROJECT_DIR$/test/com/tw/tdd/codekata/guessnumber/GuesserFacts.java" />
         <option value="$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/GameStatus.java" />
         <option value="$PROJECT_DIR$/test/com/tw/tdd/codekata/guessnumber/GameStatusFacts.java" />
+        <option value="$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/Validator.java" />
+        <option value="$PROJECT_DIR$/test/com/tw/tdd/codekata/guessnumber/AnswerGeneratorFacts.java" />
+        <option value="$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/AnswerGenerator.java" />
+        <option value="$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/InputCollector.java" />
+        <option value="$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/Game.java" />
+        <option value="$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/OutputPrinter.java" />
+        <option value="$PROJECT_DIR$/test/com/tw/tdd/codekata/guessnumber/GameFacts.java" />
       </list>
     </option>
   </component>
@@ -139,10 +174,10 @@
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
-    <option name="y" value="-4" />
-    <option name="width" value="2568" />
-    <option name="height" value="1404" />
+    <option name="x" value="974" />
+    <option name="y" value="465" />
+    <option name="width" value="1274" />
+    <option name="height" value="884" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -151,6 +186,8 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
@@ -170,6 +207,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -202,52 +249,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Xianjing_Shiwei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Xianjing_Shiwei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guessnumber" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Xianjing_Shiwei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Xianjing_Shiwei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guessnumber" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Favorites" />
@@ -255,7 +256,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
@@ -266,13 +267,17 @@
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/libs/jmock" />
+    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.tw.tdd.codekata.guessnumber" />
     </key>
@@ -287,8 +292,9 @@
       <recent name="com.tw.tdd.codekata.guessnumber" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GameStatusFacts">
+  <component name="RunManager" selected="JUnit.GameFacts">
     <configuration default="false" name="GuesserFacts" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Xianjing_Shiwei" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -317,6 +323,7 @@
       <method />
     </configuration>
     <configuration default="false" name="AnswerGeneratorFacts" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Xianjing_Shiwei" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -339,6 +346,7 @@
       <method />
     </configuration>
     <configuration default="false" name="ValidatorFacts" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Xianjing_Shiwei" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -367,11 +375,40 @@
       <method />
     </configuration>
     <configuration default="false" name="GameStatusFacts" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Xianjing_Shiwei" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.tw.tdd.codekata.guessnumber" />
       <option name="MAIN_CLASS_NAME" value="com.tw.tdd.codekata.guessnumber.GameStatusFacts" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="GameFacts" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.tw.tdd.codekata.guessnumber.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Xianjing_Shiwei" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.tw.tdd.codekata.guessnumber" />
+      <option name="MAIN_CLASS_NAME" value="com.tw.tdd.codekata.guessnumber.GameFacts" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -400,6 +437,14 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" adl_options="" air_descriptor_path="" air_program_params="" air_publisher_id="" air_root_dir_path="" air_run_mode="AppDescriptor" browser_family="FIREFOX" class_name="" debugger_sdk="Module SDK" html_or_swf_file_path="" launcher_type="OSDefault" main_class_name="" method_name="" module_name="" output_log_level="" package_name="" player_path="/Applications/Flash Player Debugger.app" port="0" run_mode="HtmlOrSwfFile" run_trusted="true" scope="Class" socket_policy_port="0" url_to_launch="http://">
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -419,6 +464,7 @@
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -438,6 +484,7 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -462,11 +509,12 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.GuesserFacts" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.AnswerGeneratorFacts" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.ValidatorFacts" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.GameStatusFacts" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.GameFacts" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -501,26 +549,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="2568" height="1404" extended-state="6" />
+    <frame x="974" y="465" width="1274" height="884" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39920318" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32940018" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.07921974" sideWeight="0.80398405" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19601594" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20065252" sideWeight="0.59477127" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40522876" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -560,10 +611,7 @@
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
-    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
     <option name="LAST_COMMIT_MESSAGE" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -586,103 +634,115 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.6.0_23/src.zip!/java/lang/Math.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/Before.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="712" column="42" selection-start="29962" selection-end="29962" vertical-scroll-proportion="-0.06836461" />
+        <state line="7" column="18" selection-start="302" selection-end="302" vertical-scroll-proportion="0.10636079" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/RandomNumberProducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="33" selection-start="215" selection-end="235" vertical-scroll-proportion="0.0">
+        <state line="9" column="33" selection-start="215" selection-end="235" vertical-scroll-proportion="0.22920203">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/IRandomNumberProducer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/GuessResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="16" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/Before.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="18" selection-start="302" selection-end="302" vertical-scroll-proportion="0.10636079">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/tw/tdd/codekata/guessnumber/ValidatorFacts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="104" selection-start="820" selection-end="820" vertical-scroll-proportion="0.57012194">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/Validator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="45" selection-start="113" selection-end="113" vertical-scroll-proportion="0.06924643">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/AnswerGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="38" selection-start="631" selection-end="631" vertical-scroll-proportion="0.39735773">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/tw/tdd/codekata/guessnumber/AnswerGeneratorFacts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="19" selection-start="637" selection-end="637" vertical-scroll-proportion="0.22459349">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/tw/tdd/codekata/guessnumber/GameFacts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="7" selection-start="427" selection-end="427" vertical-scroll-proportion="0.2626016">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/tw/tdd/codekata/guessnumber/GuesserFacts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="8" selection-start="1933" selection-end="1933" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/Guesser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="5" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/GameStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="10" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
+        <state line="28" column="4" selection-start="528" selection-end="528" vertical-scroll-proportion="0.61799663">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/tw/tdd/codekata/guessnumber/GameStatusFacts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="29" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="59" column="38" selection-start="1678" selection-end="1678" vertical-scroll-proportion="0.5670628">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/GuessResult.java">
+    <entry file="file://$PROJECT_DIR$/test/com/tw/tdd/codekata/guessnumber/ValidatorFacts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="32" selection-start="326" selection-end="326" vertical-scroll-proportion="0.22459349">
+        <state line="33" column="104" selection-start="811" selection-end="811" vertical-scroll-proportion="0.8149406">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/tw/tdd/codekata/guessnumber/AnswerGeneratorFacts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="7" selection-start="1448" selection-end="1448" vertical-scroll-proportion="0.43972835">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/Validator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="26" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/tw/tdd/codekata/guessnumber/GuesserFacts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="13" selection-start="1933" selection-end="1933" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/IAnswerGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="17" selection-start="210" selection-end="210" vertical-scroll-proportion="0.18292683">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/AnswerGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="27" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/InputCollector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="95" selection-start="259" selection-end="346" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="81" selection-start="446" selection-end="519" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/GameStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="11" selection-start="296" selection-end="296" vertical-scroll-proportion="0.27234638">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/Guesser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="27" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tw/tdd/codekata/guessnumber/OutputPrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="95" selection-start="258" selection-end="345" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/tw/tdd/codekata/guessnumber/GameFacts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="33" selection-start="624" selection-end="624" vertical-scroll-proportion="0.43349755">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -715,7 +775,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>j2sdk</last-edited>
+          <last-edited>jmock</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -764,6 +824,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>jmock</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

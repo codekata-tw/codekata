@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="jmock">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/jmock/bsh-core-2.0b4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jmock/cglib-nodep-2.1_3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jmock/hamcrest-core-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jmock/hamcrest-library-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jmock/jmock-2.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jmock/jmock-junit3-2.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jmock/jmock-junit4-2.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jmock/jmock-legacy-2.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jmock/jmock-script-2.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jmock/objenesis-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/libs/jmock/cglib-2.1_3-src.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jmock/hamcrest-core-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jmock/hamcrest-library-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jmock/jmock-2.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jmock/jmock-junit3-2.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jmock/jmock-junit4-2.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jmock/jmock-legacy-2.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jmock/jmock-script-2.5.1.jar!/" />
+    </SOURCES>
+  </library>
+</component>

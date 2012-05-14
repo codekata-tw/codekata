@@ -2,3 +2,6 @@
 .DS_Store
 **/.idea/*
 */.DS_Store
+**/out/*
+**/*.class
+guess-number/Xianjing_Shiwei/out/*

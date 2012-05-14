@@ -7,7 +7,7 @@ package com.tw.tdd.codekata.guessnumber;
  * Time: 12:16 PM
  * To change this template use File | Settings | File Templates.
  */
-public class AnswerGenerator {
+public class AnswerGenerator implements IAnswerGenerator {
 
     private final IRandomNumberProducer numberProducer;
 

@@ -21,22 +21,22 @@ public class ValidatorFacts {
 
     @Test
     public void should_be_invalid_when_input_contains_more_than_4_chars() {
-        assertFalse(validator.isValidate("12345"));
+        assertFalse(validator.isValid("12345"));
     }
 
     @Test
     public void should_be_invalid_when_input_contains_less_than_4_chars() {
-        assertFalse(validator.isValidate("123"));
+        assertFalse(validator.isValid("123"));
     }
 
     @Test
     public void should_be_invalid_when_input_contains_non_numeric_chars() {
-        assertFalse(validator.isValidate("a123"));
+        assertFalse(validator.isValid("a123"));
     }
 
     @Test
     public void should_be_valid_when_input_contains_4_numbers() {
-        assertTrue(validator.isValidate("1234"));
+        assertTrue(validator.isValid("1234"));
     }
 }
 
