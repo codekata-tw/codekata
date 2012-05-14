@@ -42,4 +42,12 @@ public class Guesser {
     public boolean finish() {
         return status.finish();
     }
+    
+    public boolean win() {
+        return status.win();
+    }
+    
+    public boolean lose() {
+        return status.lose();
+    }
 }

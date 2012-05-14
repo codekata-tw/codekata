@@ -96,7 +96,7 @@ public class GameFacts {
                 one(inputCollector).guess();
                 will(returnValue("0156"));
                 oneOf(outputPrinter).print(with(equal("0A1B")));
-                oneOf(outputPrinter).print(with(equal("Lose")));
+                oneOf(outputPrinter).print(with(equal("Lose, answer is: " + 1234)));
             }
         });
 
@@ -119,6 +119,13 @@ public class GameFacts {
                 one(inputCollector).guess();
                 will(returnValue("A123"));
                 oneOf(outputPrinter).print(with(equal("invalid input")));
+            }
+
+            {
+                one(inputCollector).guess();
+                will(returnValue("1234"));
+                oneOf(outputPrinter).print(with(equal("4A0B")));
+                oneOf(outputPrinter).print(with(equal("Win")));
             }
         });
 

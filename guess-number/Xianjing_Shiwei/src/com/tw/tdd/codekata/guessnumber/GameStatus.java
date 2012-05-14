@@ -33,7 +33,15 @@ public class GameStatus {
         return status;
     }
     
+    public boolean win() {
+        return status == "Win"; 
+    }
+    
+    public boolean lose() {
+        return status == "Lose";
+    }
+    
     public boolean finish() {
-        return status == "Win" || status == "Lose";
+        return win() || lose();
     }
 }

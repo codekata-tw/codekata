@@ -32,6 +32,13 @@ public class Game {
             String result = guesser.verify(guess);
             outputPrinter.print(result);
         }
-        outputPrinter.print(guesser.currentStatus());
+        outputFinalResult(answer, guesser);
+    }
+
+    private void outputFinalResult(String answer, Guesser guesser) {
+        String finalResult = guesser.win()
+                ? guesser.currentStatus()
+                : guesser.currentStatus() + ", answer is: " + answer;
+        outputPrinter.print(finalResult);
     }
 }
