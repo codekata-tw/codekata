@@ -11,6 +11,7 @@ import java.util.Scanner;
  */
 public class InputCollector {
     public String guess() {
+        System.out.print("please guess: ");
         Scanner scanner = new Scanner(System.in);
         return scanner.nextLine();
     }

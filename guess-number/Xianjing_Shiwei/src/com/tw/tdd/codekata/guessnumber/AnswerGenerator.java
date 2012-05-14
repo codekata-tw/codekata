@@ -21,7 +21,7 @@ public class AnswerGenerator {
             Integer currentNumber = generateNextNumber(result);
             result += currentNumber;
         }
-        System.out.println(result);
+//        System.out.println(result);
         return result;
     }
 
