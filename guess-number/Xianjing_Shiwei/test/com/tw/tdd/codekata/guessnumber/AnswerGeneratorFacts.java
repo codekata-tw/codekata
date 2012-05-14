@@ -14,26 +14,26 @@ public class AnswerGeneratorFacts {
 
     @Test
     public void should_generate_string_with_4_chars() {
-        IAnswerGenerator generator = givenAnswerGenerator();
+        AnswerGenerator generator = givenAnswerGenerator();
         String result = generator.generate();
         assertEquals(4, result.length());
     }
 
     @Test
     public void should_generate_string_contains_number_only() {
-        IAnswerGenerator generator = givenAnswerGenerator();
+        AnswerGenerator generator = givenAnswerGenerator();
         String result = generator.generate();
         assertTrue(result.matches("\\d+"));
     }
 
     @Test
     public void should_generate_string_with_different_numbers() {
-        IAnswerGenerator generator = givenAnswerGenerator();
+        AnswerGenerator generator = givenAnswerGenerator();
         String result = generator.generate();
         resultShouldContainDifferentNumbers(result);
     }
 
-    private IAnswerGenerator givenAnswerGenerator() {
+    private AnswerGenerator givenAnswerGenerator() {
         return new AnswerGenerator(new RandomNumberProducerStub(new int[] {1,2,3,4}));
     }
 

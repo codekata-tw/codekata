@@ -8,7 +8,7 @@ package com.tw.tdd.codekata.guessnumber;
  * To change this template use File | Settings | File Templates.
  */
 public class OutputPrinter {
-    public String print() {
-        return null;  //To change body of created methods use File | Settings | File Templates.
+    public void print(String result) {
+        System.out.println(result);
     }
 }

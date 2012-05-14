@@ -5,7 +5,6 @@ import org.jmock.Mockery;
 import org.jmock.integration.junit4.JUnit4Mockery;
 import org.jmock.lib.legacy.ClassImposteriser;
 import org.junit.Test;
-import static org.junit.Assert.*;
 
 /**
  * Created with IntelliJ IDEA.
@@ -17,12 +16,8 @@ import static org.junit.Assert.*;
 public class GameFacts {
 
     @Test
-    public void should_play_game() {
-        Mockery context = new JUnit4Mockery() {
-            {
-                setImposteriser(ClassImposteriser.INSTANCE);
-            }
-        };
+    public void should_play_game_and_win() {
+        Mockery context = givenMockContext();
         final AnswerGenerator answerGenerator = context.mock(AnswerGenerator.class);
         final InputCollector inputCollector = context.mock(InputCollector.class);
         final OutputPrinter outputPrinter = context.mock(OutputPrinter.class);
@@ -31,27 +26,116 @@ public class GameFacts {
                 one(answerGenerator).generate();
                 will(returnValue("1234"));
             }
+
             {
                 one(inputCollector).guess();
                 will(returnValue("1567"));
+                oneOf(outputPrinter).print(with(equal("1A0B")));
+            }
+
+            {
                 one(inputCollector).guess();
                 will(returnValue("1527"));
+                oneOf(outputPrinter).print(with(equal("1A1B")));
+            }
+
+            {
                 one(inputCollector).guess();
                 will(returnValue("1234"));
-            }
-            {
-                one(outputPrinter).print();
-                will(returnValue("1A0B"));
-                one(outputPrinter).print();
-                will(returnValue("1A1B"));
-                one(outputPrinter).print();
-                will(returnValue("Win"));
+                oneOf(outputPrinter).print(with(equal("4A0B")));
+                oneOf(outputPrinter).print(with(equal("Win")));
             }
         });
 
-        Game game = new Game(answerGenerator, inputCollector, outputPrinter);
-        game.play();
+        startGameAndVerify(context, answerGenerator, inputCollector, outputPrinter);
+    }
 
+    @Test
+    public void should_play_game_and_lose() {
+        Mockery context = givenMockContext();
+        final AnswerGenerator answerGenerator = context.mock(AnswerGenerator.class);
+        final InputCollector inputCollector = context.mock(InputCollector.class);
+        final OutputPrinter outputPrinter = context.mock(OutputPrinter.class);
+        context.checking(new Expectations() {
+            {
+                one(answerGenerator).generate();
+                will(returnValue("1234"));
+            }
+
+            {
+                one(inputCollector).guess();
+                will(returnValue("0156"));
+                oneOf(outputPrinter).print(with(equal("0A1B")));
+            }
+
+            {
+                one(inputCollector).guess();
+                will(returnValue("0156"));
+                oneOf(outputPrinter).print(with(equal("0A1B")));
+            }
+
+            {
+                one(inputCollector).guess();
+                will(returnValue("0156"));
+                oneOf(outputPrinter).print(with(equal("0A1B")));
+            }
+
+            {
+                one(inputCollector).guess();
+                will(returnValue("0156"));
+                oneOf(outputPrinter).print(with(equal("0A1B")));
+            }
+
+            {
+                one(inputCollector).guess();
+                will(returnValue("0156"));
+                oneOf(outputPrinter).print(with(equal("0A1B")));
+            }
+
+            {
+                one(inputCollector).guess();
+                will(returnValue("0156"));
+                oneOf(outputPrinter).print(with(equal("0A1B")));
+                oneOf(outputPrinter).print(with(equal("Lose")));
+            }
+        });
+
+        startGameAndVerify(context, answerGenerator, inputCollector, outputPrinter);
+    }
+
+    @Test
+    public void should_play_game_and_validate_invalid_input() {
+        Mockery context = givenMockContext();
+        final AnswerGenerator answerGenerator = context.mock(AnswerGenerator.class);
+        final InputCollector inputCollector = context.mock(InputCollector.class);
+        final OutputPrinter outputPrinter = context.mock(OutputPrinter.class);
+        context.checking(new Expectations() {
+            {
+                one(answerGenerator).generate();
+                will(returnValue("1234"));
+            }
+
+            {
+                one(inputCollector).guess();
+                will(returnValue("A123"));
+                oneOf(outputPrinter).print(with(equal("invalid input")));
+            }
+        });
+
+        startGameAndVerify(context, answerGenerator, inputCollector, outputPrinter);
+    }
+
+    private Mockery givenMockContext() {
+        return new JUnit4Mockery() {
+            {
+                setImposteriser(ClassImposteriser.INSTANCE);
+            }
+        };
+    }
+
+    private void startGameAndVerify(Mockery context, AnswerGenerator answerGenerator, InputCollector inputCollector, OutputPrinter outputPrinter) {
+        Game game = new Game(answerGenerator, inputCollector, outputPrinter);
+        game.start();
         context.assertIsSatisfied();
     }
 }

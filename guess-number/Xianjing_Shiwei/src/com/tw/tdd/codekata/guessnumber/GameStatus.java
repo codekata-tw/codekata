@@ -32,4 +32,8 @@ public class GameStatus {
     public String current() {
         return status;
     }
+    
+    public boolean finish() {
+        return status == "Win" || status == "Lose";
+    }
 }

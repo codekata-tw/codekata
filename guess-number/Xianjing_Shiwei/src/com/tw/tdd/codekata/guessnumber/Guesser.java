@@ -39,4 +39,7 @@ public class Guesser {
         return status.current();
     }
 
+    public boolean finish() {
+        return status.finish();
+    }
 }

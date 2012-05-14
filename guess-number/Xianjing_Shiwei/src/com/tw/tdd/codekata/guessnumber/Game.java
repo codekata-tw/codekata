@@ -8,11 +8,30 @@ package com.tw.tdd.codekata.guessnumber;
  * To change this template use File | Settings | File Templates.
  */
 public class Game {
+    private AnswerGenerator answerGenerator;
+    private InputCollector inputCollector;
+    private OutputPrinter outputPrinter;
+    private final Validator validator;
+
     public Game(AnswerGenerator answerGenerator, InputCollector inputCollector, OutputPrinter outputPrinter) {
-        //To change body of created methods use File | Settings | File Templates.
+        this.answerGenerator = answerGenerator;
+        this.inputCollector = inputCollector;
+        this.outputPrinter = outputPrinter;
+        validator = new Validator();
     }
 
-    public void play() {
-        //To change body of created methods use File | Settings | File Templates.
+    public void start() {
+        String answer = answerGenerator.generate();
+        Guesser guesser = new Guesser(answer);
+        while (!guesser.finish()) {
+            String guess = inputCollector.guess();
+            if (!validator.isValid(guess)) {
+                outputPrinter.print("invalid input");
+                continue;
+            }
+            String result = guesser.verify(guess);
+            outputPrinter.print(result);
+        }
+        outputPrinter.print(guesser.currentStatus());
     }
 }

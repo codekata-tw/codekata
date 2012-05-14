@@ -1,5 +1,7 @@
 package com.tw.tdd.codekata.guessnumber;
 
+import java.util.Scanner;
+
 /**
  * Created by IntelliJ IDEA.
  * User: swzhou
@@ -9,6 +11,7 @@ package com.tw.tdd.codekata.guessnumber;
  */
 public class InputCollector {
     public String guess() {
-        return null;  //To change body of created methods use File | Settings | File Templates.
+        Scanner scanner = new Scanner(System.in);
+        return scanner.nextLine();
     }
 }
