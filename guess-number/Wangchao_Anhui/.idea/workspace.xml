@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86d62e90-d026-441d-aa64-51d1b3994b63" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/guess/com/codekata/guess/Guesser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/guess/com/codekata/guess/GuesserTest.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/codekata/guess/AnswerGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/codekata/guess/Application.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/codekata/guess/Game.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/codekata/guess/GuessResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/codekata/guess/NumberSource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/codekata/guess/Outputer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/codekata/guess/NumberGeneratorTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/codekata/guess/GuessNumberTest.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/codekata/guess/GuessNumber.java" afterPath="$PROJECT_DIR$/src/main/java/com/codekata/guess/NumberGenerator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guess.iml" afterPath="$PROJECT_DIR$/guess.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/codekata/guess/GuessNumber.java" afterPath="$PROJECT_DIR$/src/main/java/com/codekata/guess/GuessNumber.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/codekata/guess/Guesser.java" afterPath="$PROJECT_DIR$/src/main/java/com/codekata/guess/Guesser.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/codekata/guess/GameTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/codekata/guess/GameTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/codekata/guess/GuesserTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/codekata/guess/GuesserTest.java" />
@@ -71,52 +76,70 @@
       <file leaf-file-name="GuesserTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/codekata/guess/GuesserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="5" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
+            <state line="20" column="0" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Game.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codekata/guess/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="11" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Outputer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codekata/guess/Outputer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="11" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NumberSource.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codekata/guess/NumberSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="13" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/codekata/guess/GameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="58" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0">
+            <state line="1" column="0" selection-start="28" selection-end="28" vertical-scroll-proportion="0.02549575">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GuessNumber.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/codekata/guess/GuessNumber.java">
+      <file leaf-file-name="Application.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codekata/guess/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="22" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
+            <state line="10" column="25" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GuessNumberTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/codekata/guess/GuessNumberTest.java">
+      <file leaf-file-name="AnswerGenerator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codekata/guess/AnswerGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="153" selection-end="153" vertical-scroll-proportion="0.29801324">
+            <state line="2" column="0" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file leaf-file-name="NumberGeneratorTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/codekata/guess/NumberGeneratorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="buildfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/buildfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="28" column="52" selection-start="863" selection-end="863" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -125,7 +148,16 @@
       <file leaf-file-name="Guesser.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codekata/guess/Guesser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="27" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
+            <state line="39" column="9" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GuessResult.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codekata/guess/GuessResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="4" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -146,20 +178,27 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/GuesserTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/codekata/guess/GuesserTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/codekata/guess/Guesser.java" />
         <option value="$PROJECT_DIR$/buildfile" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/src/main/java/com/codekata/guess/GuessNumber.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/codekata/guess/GameTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/codekata/guess/GuessNumberTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/codekata/guess/NumberGeneratorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codekata/guess/NumberGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codekata/guess/Guesser.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/codekata/guess/GuesserTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/codekata/guess/GameTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codekata/guess/NumberSource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codekata/guess/GuessResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codekata/guess/Outputer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codekata/guess/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codekata/guess/Game.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1280" />
-    <option name="height" value="774" />
+    <option name="width" value="1920" />
+    <option name="height" value="1054" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -187,30 +226,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -283,6 +298,30 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guess" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guess" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -290,10 +329,11 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="editing.templates" />
     <property name="recentsLimit" value="5" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="GoToClass.includeJavaFiles" value="false" />
@@ -301,12 +341,12 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -316,63 +356,7 @@
       <recent name="com.codekata.guess" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GuesserTest">
-    <configuration default="false" name="GuesserTest.should_return_4a0b_when_totally_correct" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.codekata.guess.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="guess" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.codekata.guess" />
-      <option name="MAIN_CLASS_NAME" value="com.codekata.guess.GuesserTest" />
-      <option name="METHOD_NAME" value="should_return_4a0b_when_totally_correct" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="GuesserTest.should_return_0a0b_when_no_match" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.codekata.guess.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="guess" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.codekata.guess" />
-      <option name="MAIN_CLASS_NAME" value="com.codekata.guess.GuesserTest" />
-      <option name="METHOD_NAME" value="should_return_0a0b_when_no_match" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Application">
     <configuration default="false" name="GuesserTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
@@ -401,7 +385,7 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="GuesserTest.should_return_1a0b_when_1_exactly_match" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="GameTest.should_show_error_and_finish_when_guess_count_reach_6" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.codekata.guess.*" />
@@ -412,8 +396,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.codekata.guess" />
-      <option name="MAIN_CLASS_NAME" value="com.codekata.guess.GuesserTest" />
-      <option name="METHOD_NAME" value="should_return_1a0b_when_1_exactly_match" />
+      <option name="MAIN_CLASS_NAME" value="com.codekata.guess.GameTest" />
+      <option name="METHOD_NAME" value="should_show_error_and_finish_when_guess_count_reach_6" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -425,6 +409,84 @@
       </option>
       <envs />
       <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="GameTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.codekata.guess.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="guess" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.codekata.guess" />
+      <option name="MAIN_CLASS_NAME" value="com.codekata.guess.GameTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="GameTest.should_show_failure_message_when_guess_count_reach_6" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.codekata.guess.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="guess" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.codekata.guess" />
+      <option name="MAIN_CLASS_NAME" value="com.codekata.guess.GameTest" />
+      <option name="METHOD_NAME" value="should_show_failure_message_when_guess_count_reach_6" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Application" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.codekata.guess.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.codekata.guess.Application" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="guess" />
+      <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -527,11 +589,12 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.GuesserTest.should_return_4a0b_when_totally_correct" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.GuesserTest.should_return_0a0b_when_no_match" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.GuesserTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.GuesserTest.should_return_1a0b_when_1_exactly_match" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.GuesserTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.GameTest.should_show_error_and_finish_when_guess_count_reach_6" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.GameTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.GameTest.should_show_failure_message_when_guess_count_reach_6" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Application" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -566,13 +629,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="774" extended-state="0" />
+    <frame x="0" y="22" width="1920" height="1054" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -580,16 +644,15 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32954547" sideWeight="0.0" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.330781" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16826923" sideWeight="0.8092176" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19078243" sideWeight="0.9994658" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953465" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -653,51 +716,81 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/codekata/guess/GuesserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="5" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/codekata/guess/GameTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="58" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codekata/guess/GuessNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="4" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/buildfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codekata/guess/NumberGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="562" selection-end="562" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codekata/guess/NumberSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codekata/guess/AnswerGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/codekata/guess/NumberGeneratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="52" selection-start="863" selection-end="863" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codekata/guess/GuessResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="4" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/codekata/guess/GuesserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codekata/guess/Guesser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="27" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
+        <state line="39" column="9" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/codekata/guess/GuessNumberTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codekata/guess/Outputer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="153" selection-end="153" vertical-scroll-proportion="0.29801324">
+        <state line="9" column="11" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codekata/guess/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="25" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codekata/guess/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="11" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/codekata/guess/GameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="28" selection-end="28" vertical-scroll-proportion="0.02549575">
           <folding />
         </state>
       </provider>

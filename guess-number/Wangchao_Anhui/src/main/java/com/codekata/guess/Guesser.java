@@ -1,6 +1,5 @@
 package com.codekata.guess;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Guesser {
@@ -10,13 +9,12 @@ public class Guesser {
         this.answer = answer;
     }
 
-    public String guess(String guess) {
-        List<Integer> guessList = convertToArray(guess);
+    public GuessResult guess(List<Integer> guessList) {
         int partMatch = getPartMatch(guessList);
         int exactlyMatch = getExactlyMatchNumber(guessList);
         partMatch = partMatch - exactlyMatch;
 
-        return exactlyMatch + "a" + partMatch + "b";
+        return new GuessResult(exactlyMatch, partMatch);
     }
 
     private int getPartMatch(List<Integer> guessList) {
@@ -44,12 +42,5 @@ public class Guesser {
         return exactlyMatch;
     }
 
-    private List<Integer> convertToArray(String guess) {
-        ArrayList<Integer> result = new ArrayList<Integer>();
-        for (int i = 0; i < guess.length(); i++) {
-            result.add(Integer.parseInt(String.valueOf(guess.charAt(i))));
-        }
-        return result;
-    }
 
 }
